@@ -1228,7 +1228,9 @@
 - id: metrics-aggregation
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74563
+    fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
   - issue: https://issues.jenkins.io/browse/JENKINS-74564
+    fix: https://github.com/jenkinsci/metrics-aggregation-plugin/commit/1651632141e2dc16cdef1d1e992deb9b320c451f
 - id: micro-focus-performance-center-integration
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74455
