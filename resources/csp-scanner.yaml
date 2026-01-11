@@ -6525,10 +6525,7 @@
 - repo: json-editor-parameter-plugin
   findings: []
 - repo: json-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/json-parameter-plugin/blob/4d596c43bca9ec930fed4832b797953d11291374/src/main/resources/com/github/cyanbaz/jenkins/plugins/jsonparameter/JsonParameterReferenceDefinition/index.jelly#L23
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: json-path-api-plugin
   findings: []
 - repo: jsoup-plugin
