@@ -1744,6 +1744,7 @@
   findings:
   - issue: https://github.com/jenkinsci/sidebar-link-plugin/issues/106
     fix: https://github.com/jenkinsci/sidebar-link-plugin/issues/107
+    release: https://github.com/jenkinsci/sidebar-link-plugin/releases/tag/sidebar-link-2.5.0
 - id: simple-queue
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74334
