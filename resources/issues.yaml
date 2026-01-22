@@ -2026,6 +2026,9 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74561
   - issue: https://issues.jenkins.io/browse/JENKINS-74562
+- id: vigilnz-security
+  findings:
+  - issue: https://github.com/jenkinsci/vigilnz-security-plugin/issues/14
 - id: virtualbox
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74421
