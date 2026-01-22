@@ -7625,6 +7625,8 @@
   findings: []
 - repo: multibranch-build-strategy-extension
   findings: []
+- repo: multibranch-filter-plugin
+  findings: []
 - repo: multibranch-job-tear-down-plugin
   findings: []
 - repo: multibranch-scan-webhook-trigger
@@ -7745,6 +7747,8 @@
   findings: []
 - repo: nord-theme-plugin
   findings: []
+- repo: notifer-plugin
+  findings: []
 - repo: notification-plugin
   findings: []
 - repo: notify-events-plugin
@@ -7842,6 +7846,8 @@
     - url: https://github.com/jenkinsci/oic-auth-plugin/blob/e5ad9f26c051e68242b5bb5df3f74c5e8030df88/src/main/java/org/jenkinsci/plugins/oic/OicAvatarResolver.java#L8
       type: Avatar images extension points
       assessment: False Positive # https://github.com/jenkinsci/oic-auth-plugin/pull/681
+- repo: oidc-backchannel-logout-plugin
+  findings: []
 - repo: oidc-provider-plugin
   findings: []
 - repo: okhttp-api-plugin
@@ -9620,6 +9626,8 @@
     - url: https://github.com/jenkinsci/security-inspector-plugin/blob/6eecc36919c24116ee99f1500fb94966542270a0/src/main/resources/org/jenkinsci/plugins/securityinspector/impl/users/PermissionsForItemReportBuilder/configureReport.jelly#L60
       type: Legacy checkUrl
       assessment: TODO
+- repo: sedstart-runner-plugin
+  findings: []
 - repo: seed-plugin
   findings: []
 - repo: select2-api-plugin
@@ -10473,6 +10481,8 @@
   findings: []
 - repo: svnmerge-plugin
   findings: []
+- repo: swarm-agents-cloud-plugin
+  findings: []
 - repo: swarm-plugin
   findings: []
 - repo: sweagle-plugin
@@ -11232,6 +11242,14 @@
   findings: []
 - repo: views-containing-job-plugin
   findings: []
+- repo: vigilnz-security-plugin
+  findings:
+  - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/a682fdadca127378df9ba1e4614cfb661260494c/src/main/resources/io/jenkins/plugins/vigilnz/ui/ScanResultAction/index.jelly#L33
+    type: Inline Event Handler
+    assessment: True Positive
+  - url: https://github.com/jenkinsci/vigilnz-security-plugin/blob/a682fdadca127378df9ba1e4614cfb661260494c/src/main/resources/io/jenkins/plugins/vigilnz/credentials/TokenCredentials/credentials.jelly#L6
+    type: Inline Script Block
+    assessment: True Positive
 - repo: violation-columns-plugin
   findings: []
 - repo: violation-comments-to-github-plugin
