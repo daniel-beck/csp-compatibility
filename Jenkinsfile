@@ -38,7 +38,7 @@ pipeline {
       }
     }
 
-    stage ('Publish build report') {
+    stage('Publish build report') {
       steps {
         publishBuildStatusReport()
       }
