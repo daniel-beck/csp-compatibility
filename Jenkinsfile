@@ -37,5 +37,11 @@ pipeline {
         publishReports (["csp-compatibility/index.html", "csp-compatibility/plugin_report.json"])
       }
     }
+
+    stage('Publish build report') {
+      steps {
+        publishBuildStatusReport()
+      }
+    }
   }
 }
