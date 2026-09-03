@@ -401,6 +401,7 @@
         <div class="filter-container">
             <input type="text" id="filterInput" placeholder="Filter by plugin ID...">
             <button id="filterButton" class="filter-button">Show Problems Only</button>
+            <button id="inactiveFilterButton" class="filter-button">Hide Inactive</button>
             <button id="jsonFilterButton" class="filter-button">Filter by JSON</button>
         </div>
 
@@ -449,6 +450,7 @@
         let filteredData = [];
         let currentSort = { column: 'popularity', direction: 'desc' };
         let showProblemsOnly = false;
+        let hideInactive = false;
         let jsonFilterPlugins = null; // Set of plugin IDs to filter by
         let currentTooltipElement = null; // Track current tooltip trigger
 
@@ -888,6 +890,14 @@
             return div.innerHTML;
         }
 
+        // Check if a plugin is inactive (deprecated, unmaintained, or has unresolved security issues)
+        function isInactive(plugin) {
+            const notes = plugin.notes || '';
+            return notes.includes('Deprecated') ||
+                   notes.includes('Unmaintained (') ||
+                   notes.includes('Unresolved SECURITY-');
+        }
+
         // Filter data
         function filterData(searchTerm) {
             const term = searchTerm.toLowerCase();
@@ -899,10 +909,10 @@
                 // Check JSON filter
                 const matchesJsonFilter = !jsonFilterPlugins || jsonFilterPlugins.has(plugin.id);
 
-                if (showProblemsOnly) {
-                    return matchesSearch && hasProblems && matchesJsonFilter;
-                }
-                return matchesSearch && matchesJsonFilter;
+                if (!matchesSearch || !matchesJsonFilter) return false;
+                if (showProblemsOnly && !hasProblems) return false;
+                if (hideInactive && isInactive(plugin)) return false;
+                return true;
             });
             sortData(currentSort.column, currentSort.direction);
             renderTable();
@@ -920,6 +930,23 @@
             } else {
                 button.classList.remove('active');
                 button.textContent = 'Show Problems Only';
+            }
+
+            const searchTerm = document.getElementById('filterInput').value;
+            filterData(searchTerm);
+        }
+
+        // Toggle inactive filter
+        function toggleInactiveFilter() {
+            hideInactive = !hideInactive;
+            const button = document.getElementById('inactiveFilterButton');
+
+            if (hideInactive) {
+                button.classList.add('active');
+                button.textContent = 'Show Inactive';
+            } else {
+                button.classList.remove('active');
+                button.textContent = 'Hide Inactive';
             }
 
             const searchTerm = document.getElementById('filterInput').value;
@@ -1019,6 +1046,7 @@
         });
 
         document.getElementById('filterButton').addEventListener('click', toggleProblemsFilter);
+        document.getElementById('inactiveFilterButton').addEventListener('click', toggleInactiveFilter);
         document.getElementById('jsonFilterButton').addEventListener('click', showJsonModal);
 
         // Modal event listeners
