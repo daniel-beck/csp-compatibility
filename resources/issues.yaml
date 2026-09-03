@@ -14,6 +14,8 @@
 - id: agent-server-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74457
+    fix: https://github.com/jenkinsci/agent-server-parameter-plugin/pull/8
+    release: https://github.com/jenkinsci/agent-server-parameter-plugin/releases/tag/1.21.v71e7962a_b_456
 - id: alibabacloud-ecs
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74516
@@ -332,9 +334,16 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74206
 - id: clif-performance-testing
   findings:
+  - url: https://issues.jenkins.io/browse/JENKINS-74592?focusedId=450124&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-450124
   - issue: https://issues.jenkins.io/browse/JENKINS-74592
+    fix: https://github.com/jenkinsci/clif-performance-testing-plugin/commit/d51cee1f2107b63e77316b36acd7310db256ce5f
+    release: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72
   - issue: https://issues.jenkins.io/browse/JENKINS-74593
+    fix: https://github.com/jenkinsci/clif-performance-testing-plugin/commit/fcbba62cbfb7d06455915158ee0c64f9f622664e
+    release: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72
   - issue: https://issues.jenkins.io/browse/JENKINS-74594
+    fix: https://github.com/jenkinsci/clif-performance-testing-plugin/commit/c10841d7ad3a4fbb038e8702a95bb02304d1fc28
+    release: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72
 - id: cloudbees-disk-usage-simple
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-73968
@@ -440,6 +449,8 @@
 - id: custom-checkbox-parameter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74266
+    fix: https://github.com/jenkinsci/custom-checkbox-parameter-plugin/pull/10
+    release: https://github.com/jenkinsci/custom-checkbox-parameter-plugin/releases/tag/1.69.v27b_2c5306e46
 - id: custom-folder-icon
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74254
@@ -530,6 +541,8 @@
 - id: deploy-dashboard
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74429
+    fix: https://github.com/jenkinsci/deploy-dashboard-plugin/pull/11
+    release: https://github.com/jenkinsci/deploy-dashboard-plugin/releases/tag/deploy-dashboard-0.2.0
 - id: deployer-framework
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74416
@@ -624,26 +637,34 @@
 - id: eggplant-runner
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74585
+    fix: https://github.com/jenkinsci/eggplant-runner-plugin/pull/83
+    release: https://github.com/jenkinsci/eggplant-runner-plugin/releases/tag/0.0.1.306.v3b_311e4c99e2
 - id: electricflow
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74431
-    fix: https://github.com/jenkinsci/electricflow-plugin/pull/391
+    fix: https://github.com/jenkinsci/electricflow-plugin/pull/411
+    release: https://github.com/jenkinsci/electricflow-plugin/releases/tag/electricflow-1.1.42
   - issue: https://issues.jenkins.io/browse/JENKINS-74432
-    fix: https://github.com/jenkinsci/electricflow-plugin/pull/392
+    fix: https://github.com/jenkinsci/electricflow-plugin/pull/411
+    release: https://github.com/jenkinsci/electricflow-plugin/releases/tag/electricflow-1.1.42
   - issue: https://issues.jenkins.io/browse/JENKINS-74433
-    fix: https://github.com/jenkinsci/electricflow-plugin/pull/393
+    fix: https://github.com/jenkinsci/electricflow-plugin/pull/411
+    release: https://github.com/jenkinsci/electricflow-plugin/releases/tag/electricflow-1.1.42
   - issue: https://issues.jenkins.io/browse/JENKINS-74434
-    fix: https://github.com/jenkinsci/electricflow-plugin/pull/394
+    fix: https://github.com/jenkinsci/electricflow-plugin/pull/411
+    release: https://github.com/jenkinsci/electricflow-plugin/releases/tag/electricflow-1.1.42
   - issue: https://issues.jenkins.io/browse/JENKINS-74435
-    fix: https://github.com/jenkinsci/electricflow-plugin/pull/395
+    fix: https://github.com/jenkinsci/electricflow-plugin/pull/411
+    release: https://github.com/jenkinsci/electricflow-plugin/releases/tag/electricflow-1.1.42
 - id: elOyente
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74689
 - id: email-ext
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74891
-    fix: https://github.com/jenkinsci/email-ext-plugin/pull/569
-    release: https://github.com/jenkinsci/email-ext-plugin/releases/tag/1866.v14fa_6d201654
+  # fix: https://github.com/jenkinsci/email-ext-plugin/pull/569 # Incomplete it seems?
+    fix: https://github.com/jenkinsci/email-ext-plugin/pull/1449
+  # release: https://github.com/jenkinsci/email-ext-plugin/releases/tag/1866.v14fa_6d201654
 - id: emailext-template
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74892
@@ -997,14 +1018,19 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74469
     fix: https://github.com/jenkinsci/jms-messaging-plugin/commit/cc8cc687b11bc9ce973c6ac2ab13301d0c0f912b
+    release: https://github.com/jenkinsci/jms-messaging-plugin/releases/tag/parent-2.0.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74470
     fix: https://github.com/jenkinsci/jms-messaging-plugin/commit/cc8cc687b11bc9ce973c6ac2ab13301d0c0f912b
+    release: https://github.com/jenkinsci/jms-messaging-plugin/releases/tag/parent-2.0.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74471
     fix: https://github.com/jenkinsci/jms-messaging-plugin/commit/cc8cc687b11bc9ce973c6ac2ab13301d0c0f912b
+    release: https://github.com/jenkinsci/jms-messaging-plugin/releases/tag/parent-2.0.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74472
     fix: https://github.com/jenkinsci/jms-messaging-plugin/commit/cc8cc687b11bc9ce973c6ac2ab13301d0c0f912b
+    release: https://github.com/jenkinsci/jms-messaging-plugin/releases/tag/parent-2.0.0
   - issue: https://issues.jenkins.io/browse/JENKINS-74473
     fix: https://github.com/jenkinsci/jms-messaging-plugin/commit/cc8cc687b11bc9ce973c6ac2ab13301d0c0f912b
+    release: https://github.com/jenkinsci/jms-messaging-plugin/releases/tag/parent-2.0.0
   - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/38e939885cb1c1bf13c1117577776f81d4fe37ac/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L56-L57
 - id: jobConfigHistory
   findings:
@@ -1069,6 +1095,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-76303
     fix: https://github.com/jenkinsci/keycloak-plugin/pull/27
+    release: https://github.com/jenkinsci/keycloak-plugin/releases/tag/keycloak-2.4.0
 - id: klaros-testmanagement
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74636
@@ -1113,6 +1140,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74108
     fix: https://github.com/jenkinsci/list-git-branches-parameter-plugin/pull/28
+    release: https://github.com/jenkinsci/list-git-branches-parameter-plugin/releases/tag/76.v7a_a_7a_5065278
 - id: loaderio-jenkins-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74638
@@ -1141,6 +1169,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74073
     fix: https://github.com/jenkinsci/m2release-plugin/pull/123
+    release: https://github.com/jenkinsci/m2release-plugin/releases/tag/547.v78681a_45411a_
 - id: machine-learning
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74556
@@ -1167,6 +1196,8 @@
 - id: matlab
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-76363
+    fix: https://github.com/jenkinsci/matlab-plugin/pull/53
+    release: https://github.com/jenkinsci/matlab-plugin/releases/tag/1122.ve3b_d956efdfc
 - id: matomo-analytics
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74700
@@ -1530,6 +1561,8 @@
 - id: propelo-job-reporter
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74589
+    fix: https://github.com/jenkinsci/propelo-job-reporter-plugin/pull/29
+    release: https://github.com/jenkinsci/propelo-job-reporter-plugin/releases/tag/1.0.39
 - id: prqa-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74423
@@ -1538,6 +1571,7 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74127
     fix: https://github.com/jenkinsci/publish-over-cifs-plugin/pull/133
+    release: https://github.com/jenkinsci/publish-over-cifs-plugin/releases/tag/194.v0274950f275c
 - id: publish-over-ssh
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74017
@@ -1884,6 +1918,8 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74474
   - issue: https://issues.jenkins.io/browse/JENKINS-74475
+    fix: https://github.com/jenkinsci/sysdig-secure-plugin/pull/121
+    release: https://github.com/jenkinsci/sysdig-secure-plugin/releases/tag/sysdig-secure-3.0.3
 - id: talend
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74595
@@ -2110,6 +2146,8 @@
 - id: wxwork-notification
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74391
+    fix: https://github.com/jenkinsci/wxwork-notification-plugin/pull/87
+    release: https://github.com/jenkinsci/wxwork-notification-plugin/releases/tag/1.0.2-155.v61d48e9846a_7
 - id: xcode-plugin
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74111
