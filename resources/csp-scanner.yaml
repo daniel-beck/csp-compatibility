@@ -92,10 +92,7 @@
 - repo: agent-maintenance-plugin
   findings: []
 - repo: agent-server-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/agent-server-parameter-plugin/blob/4048f6ddaff5472b1f125bd0c789aae31647310f/src/main/resources/com/bluersw/AgentParameterDefinition/index.jelly#L15
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: agent-setup-plugin
   findings: []
 - repo: aio-tests-plugin
@@ -4011,10 +4008,7 @@
 - repo: custom-build-properties-plugin
   findings: []
 - repo: custom-checkbox-parameter-plugin
-  findings:
-    - url: https://github.com/jenkinsci/custom-checkbox-parameter-plugin/blob/d706ec1a829c1908ee4c488d793f626b8bee8681/src/main/resources/com/bluersw/CheckboxParameterDefinition/index.jelly#L15
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: custom-folder-icon-plugin
   findings: []
 - repo: custom-history-plugin
@@ -4201,13 +4195,7 @@
       type: Inline Script Block
       assessment: TODO
 - repo: deploy-dashboard-plugin
-  findings:
-    - url: https://github.com/jenkinsci/deploy-dashboard-plugin/blob/c9cff434229e7369df53845fcb5c62c54fbd7584/src/main/resources/org/jenkinsci/plugins/environmentdashboard/DeploymentView/main.jelly#L137
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/deploy-dashboard-plugin/blob/c9cff434229e7369df53845fcb5c62c54fbd7584/src/main/resources/org/jenkinsci/plugins/environmentdashboard/DeploymentView/main.jelly#L58
-      type: Javascript scheme
-      assessment: TODO
+  findings: []
 - repo: deploy-integrationserver-plugin
   findings: []
 - repo: deploy-plugin
@@ -4695,19 +4683,7 @@
 - repo: editable-choice-plugin
   findings: []
 - repo: eggplant-runner-plugin
-  findings:
-    - url: https://github.com/jenkinsci/eggplant-runner-plugin/blob/f87760e239aa73a1759c4e901b969a839ea9239d/src/main/resources/io/jenkins/plugins/eggplant/EggplantRunnerBuilder/config.jelly#L19
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/eggplant-runner-plugin/blob/f87760e239aa73a1759c4e901b969a839ea9239d/src/main/resources/io/jenkins/plugins/eggplant/EggplantRunnerBuilder/config.jelly#L20
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/eggplant-runner-plugin/blob/f87760e239aa73a1759c4e901b969a839ea9239d/src/main/resources/io/jenkins/plugins/eggplant/EggplantRunnerBuilder/config.jelly#L22
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/eggplant-runner-plugin/blob/f87760e239aa73a1759c4e901b969a839ea9239d/src/main/resources/io/jenkins/plugins/eggplant/EggplantRunnerBuilder/config.jelly#L45
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: eiffel-broadcaster-plugin
   findings: []
 - repo: eks-token-plugin
@@ -4721,94 +4697,7 @@
 - repo: elasticsearch-query-plugin
   findings: []
 - repo: electricflow-plugin
-  findings:
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowAssociateBuildToRelease/config.jelly#L54
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L13
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L18
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L21
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L24
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L33
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L73
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L14
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L22
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L26
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L40
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L47
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L87
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L13
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L18
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L21
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L24
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L55
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L13
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L18
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L21
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L40
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L46
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L80
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowAssociateBuildToRelease/config.jelly#L68
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowDeployApplication/config.jelly#L87
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowPipelinePublisher/config.jelly#L101
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowRunProcedure/config.jelly#L69
-      type: Inline Script Block
-      assessment: TODO
-    - url: https://github.com/jenkinsci/electricflow-plugin/blob/5e19fccac6925ec9f5d67e4470fd8c998bc50c13/src/main/resources/org/jenkinsci/plugins/electricflow/ElectricFlowTriggerRelease/config.jelly#L94
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: eloyente-plugin
   findings:
     - url: https://github.com/jenkinsci/eloyente-plugin/blob/475f4f04ccc7257ff06b3314d4fadedddafdc04f/Scripts/Javadoc/doclets/yworks-uml-doclet-3.0_02-jdk1.5/doc/DocFilter.html#L25
@@ -6283,9 +6172,9 @@
   findings: []
 - repo: jenkins-keycloak-plugin
   findings:
-    - url: https://github.com/jenkinsci/jenkins-keycloak-plugin/blob/1e41f01e74de4b9b9babf45fa4ebb5b9de47445f/src/main/java/org/jenkinsci/plugins/KeycloakAvatarResolver.java#L9
+    - url: https://github.com/jenkinsci/keycloak-plugin/blob/8cbbd4632077a18b1617b443f2bc2cd2118b72c1/src/main/java/org/jenkinsci/plugins/KeycloakAvatarResolver.java#L9
       type: Avatar images extension points
-      assessment: TODO
+      assessment: False Positive # https://github.com/jenkinsci/keycloak-plugin/blob/8cbbd4632077a18b1617b443f2bc2cd2118b72c1/src/main/java/org/jenkinsci/plugins/KeycloakAvatarProperty.java#L83
 - repo: jenkins-multijob-plugin
   findings: []
 - repo: jenkins-xcp-ci-plugin
@@ -6378,7 +6267,7 @@
       assessment: TODO
 - repo: jms-messaging-plugin
   findings:
-    - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/38e939885cb1c1bf13c1117577776f81d4fe37ac/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L57
+    - url: https://github.com/jenkinsci/jms-messaging-plugin/blob/baeec2b2664e516e9aacc570af74b1c6f912d872/plugin/src/main/resources/com/redhat/jenkins/plugins/ci/provider/data/KafkaSubscriberProviderData/KafkaSubscriberProviderDataDescriptor/kafka-subscriber.jelly#L76
       type: Legacy checkUrl
       assessment: TODO
 - repo: jnr-posix-api-plugin
@@ -6993,37 +6882,7 @@
 - repo: mathworks-polyspace-plugin
   findings: []
 - repo: matlab-plugin
-  findings:
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L11
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L118
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L121
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L15
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L21
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L27
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L33
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L72
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L75
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/matlab-plugin/blob/9bfbb7b29b5feaf5f826ddfba35355c318d66894/src/main/resources/com/mathworks/ci/TestResultsViewAction/index.jelly#L149
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: matomo-analytics-plugin
   findings: []
 - repo: matrix-auth-plugin
@@ -8597,36 +8456,15 @@
       assessment: TODO
 - repo: propelo-job-reporter-plugin
   findings:
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/0b37417ec1b455fa827073472a07f0eee1a57b66/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L100
+    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/a8748082c7c6483f341e081598c736d225983e08/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L118
       type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/0b37417ec1b455fa827073472a07f0eee1a57b66/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L106
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/0b37417ec1b455fa827073472a07f0eee1a57b66/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L16
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/0b37417ec1b455fa827073472a07f0eee1a57b66/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L86
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/propelo-job-reporter-plugin/blob/0b37417ec1b455fa827073472a07f0eee1a57b66/src/main/resources/io/jenkins/plugins/propelo/job_reporter/extensions/LevelOpsMgmtLink/index.jelly#L91
-      type: Legacy checkUrl
-      assessment: TODO
+      assessment: False Positive
 - repo: provar-automation-plugin
   findings: []
 - repo: proxmox-plugin
   findings: []
 - repo: publish-over-cifs-plugin
-  findings:
-    - url: https://github.com/jenkinsci/publish-over-cifs-plugin/blob/ffd87eb043fc9d06a1e5e8a846448c051e74b614/src/main/resources/jenkins/plugins/publish_over_cifs/CifsPublisherPlugin/config.jelly#L79
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/publish-over-cifs-plugin/blob/ffd87eb043fc9d06a1e5e8a846448c051e74b614/src/main/resources/jenkins/plugins/publish_over_cifs/CifsPublisherPlugin/config.jelly#L82
-      type: Legacy checkUrl
-      assessment: TODO
-    - url: https://github.com/jenkinsci/publish-over-cifs-plugin/blob/ffd87eb043fc9d06a1e5e8a846448c051e74b614/src/main/resources/jenkins/plugins/publish_over_cifs/CifsPublisherPlugin/config.jelly#L97
-      type: Legacy checkUrl
-      assessment: TODO
+  findings: []
 - repo: publish-over-dropbox-plugin
   findings: []
 - repo: publish-over-ftp-plugin
@@ -10557,9 +10395,9 @@
       assessment: TODO
 - repo: sysdig-secure-plugin
   findings:
-    - url: https://github.com/jenkinsci/sysdig-secure-plugin/blob/5dce7eeae3517e306d2b85180951b21d8fc04147/src/main/resources/com/sysdig/jenkins/plugins/sysdig/infrastructure/jenkins/vm/ui/SysdigAction/index.jelly#L92
+    - url: https://github.com/jenkinsci/sysdig-secure-plugin/blob/5c91b842dee2230a1eeb66a6727d8b8c91761080/src/main/resources/com/sysdig/jenkins/plugins/sysdig/infrastructure/jenkins/vm/ui/SysdigAction/index.jelly#L92
       type: Inline Event Handler
-      assessment: TODO
+      assessment: True Positive
 - repo: syslog-logger-plugin
   findings: []
 - repo: systemloadaverage-monitor-plugin
@@ -21065,13 +20903,7 @@
       type: Outside script src
       assessment: TODO
 - repo: wxwork-notification-plugin
-  findings:
-    - url: https://github.com/jenkinsci/wxwork-notification-plugin/blob/b640ce95fc735c43b88b3a01ce09a88c5b9d025a/src/main/resources/io/jenkins/plugins/wxwork/WXWorkRobotProperty/config.jelly#L66
-      type: Inline Event Handler
-      assessment: TODO
-    - url: https://github.com/jenkinsci/wxwork-notification-plugin/blob/b640ce95fc735c43b88b3a01ce09a88c5b9d025a/src/main/resources/io/jenkins/plugins/wxwork/WXWorkRobotProperty/config.jelly#L7
-      type: Inline Script Block
-      assessment: TODO
+  findings: []
 - repo: xcode-plugin
   findings:
     - url: https://github.com/jenkinsci/xcode-plugin/blob/831b1cdc61bacce451fabcebccdc6f584de4f99d/src/main/resources/au/com/rayh/DeveloperProfileLoader/config.jelly#L62
