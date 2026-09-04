@@ -15,32 +15,17 @@ show-build-parameters: "Not hosted in jenkinsci GitHub organization; no maintain
 
 # Document plugins with inherent(ish) issues
 badge: "Configuration-dependent: External image URLs (but probably expected as is)"
-dashboard-view: |- # 2026-01-14
-  https://github.com/jenkinsci/dashboard-view-plugin/releases/tag/2.558.v96b_901978e47
-  Configuration-dependent: Iframe/Image portlets
+dashboard-view: "Configuration-dependent: Iframe/Image portlets"
 login-theme: "Configuration-dependent: Custom CSS/JS"
 simple-theme-plugin: "Configuration-dependent"
 warnings-ng: "Configuration-dependent: Custom icons from other domains are not automatically allowed"
 
-# Document releases fixing all known issues, keep for a while after release but remove later
-github-branch-source: "https://github.com/jenkinsci/github-branch-source-plugin/releases/tag/1925.v62fb_7ffb_08ce" # 2025-11-25
-extra-columns: "https://github.com/jenkinsci/extra-columns-plugin/releases/tag/extra-columns-1.28" # 2025-11-30
-oic-auth: "https://github.com/jenkinsci/oic-auth-plugin/releases/tag/4.626.ve5a_d9f26c051" # 2025-12-02
-custom-folder-icon: "https://github.com/jenkinsci/custom-folder-icon-plugin/releases/tag/custom-folder-icon-2.22" # 2025-12-04
-gitee: "https://github.com/jenkinsci/gitee-plugin/releases/tag/1255.v1b_42e96a_378b_" # 2025-12-04
-gitlab-plugin: "https://github.com/jenkinsci/gitlab-plugin/releases/tag/gitlab-plugin-1.9.11" # 2025-12-08
-customizable-header: "https://github.com/jenkinsci/customizable-header-plugin/releases/tag/255.v3a_5dec1a_b_e28" # 2025-12-09
-github-pullrequest: "https://github.com/KostyaSha/github-integration-plugin/releases/tag/0.7.3" # 2025-12-11
-gravatar: "https://github.com/jenkinsci/gravatar-plugin/releases/tag/212.210.v6a_4ffe269ef8" # 2025-12-15
-monitoring: "https://github.com/jenkinsci/monitoring-plugin/releases/tag/monitoring-2.6.0" # 2025-12-16
-design-library: "https://github.com/jenkinsci/design-library-plugin/releases/tag/417.vce0571393f5b_" # 2025-12-19
-repo: "https://github.com/jenkinsci/repo-plugin/releases/tag/repo-1.17.0-r2" # 2025-12-29
-matomo-analytics: "https://github.com/jenkinsci/matomo-analytics-plugin/releases/tag/1.34.v7fe4d35786a_5" # 2025-12-29
-testng-plugin: "https://github.com/jenkinsci/testng-plugin-plugin/releases/tag/979.vf6c805a_a_76a_2" # 2026-01-01
-build-pipeline-plugin: "https://github.com/jenkinsci/build-pipeline-plugin/releases/tag/build-pipeline-plugin-2.1.0" # 2026-01-02
-cctray-xml: "https://github.com/jenkinsci/cctray-xml-plugin/releases/tag/155.v5139a_4591a_3e" # 2026-01-04
-yaml-axis: "https://github.com/jenkinsci/yaml-axis-plugin/releases/tag/380.v09eb_4d50d200" # 2026-01-05
-json-parameter: "https://github.com/jenkinsci/json-parameter-plugin/releases/tag/96.vf950fb_b_79615" # 2026-01-10
-sidebar-link: "https://github.com/jenkinsci/sidebar-link-plugin/releases/tag/sidebar-link-2.5.0" # 2026-01-15
-remote-result-trigger: "https://github.com/jenkinsci/remote-result-trigger-plugin/releases/tag/3.171.v3d9730904fa_7" # 2026-01-19
-vigilnz-security: "https://github.com/jenkinsci/vigilnz-security-plugin/releases/tag/2.0.0" # 2026-02-06
+matlab: https://github.com/jenkinsci/matlab-plugin/releases/tag/1122.ve3b_d956efdfc # 2026-07-28
+m2release: https://github.com/jenkinsci/m2release-plugin/releases/tag/547.v78681a_45411a_ # 2026-08-03
+custom-checkbox-parameter: https://github.com/jenkinsci/custom-checkbox-parameter-plugin/releases/tag/1.69.v27b_2c5306e46 # 2026-08-06
+agent-server-parameter: https://github.com/jenkinsci/agent-server-parameter-plugin/releases/tag/1.21.v71e7962a_b_456 # 2026-08-08
+list-git-branches-parameter: https://github.com/jenkinsci/list-git-branches-parameter-plugin/releases/tag/76.v7a_a_7a_5065278 # 2026-08-13
+deploy-dashboard: https://github.com/jenkinsci/deploy-dashboard-plugin/releases/tag/deploy-dashboard-0.2.0 # 2026-08-19
+clif-performance-testing: https://github.com/jenkinsci/clif-performance-testing-plugin/releases/tag/83.vfeb_59a_e6cf72 # 2026-08-24
+
+keycloak: https://github.com/jenkinsci/keycloak-plugin/releases/tag/keycloak-2.4.0 # 2026-09-02
