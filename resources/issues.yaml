@@ -661,9 +661,12 @@
   - issue: https://issues.jenkins.io/browse/JENKINS-74689
 - id: email-ext
   findings:
-  - issue: https://issues.jenkins.io/browse/JENKINS-74891
+  - issue: https://github.com/jenkinsci/email-ext-plugin/issues/1603
+    fix: https://github.com/jenkinsci/email-ext-plugin/pull/1606
+  # Previous issue reports and fix attempts were incomplete:
+  # issue: https://issues.jenkins.io/browse/JENKINS-74891
   # fix: https://github.com/jenkinsci/email-ext-plugin/pull/569 # Incomplete it seems?
-    fix: https://github.com/jenkinsci/email-ext-plugin/pull/1449
+  # fix: https://github.com/jenkinsci/email-ext-plugin/pull/1449 # Not the actual fix
   # release: https://github.com/jenkinsci/email-ext-plugin/releases/tag/1866.v14fa_6d201654
 - id: emailext-template
   findings:
