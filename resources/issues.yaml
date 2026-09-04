@@ -1427,8 +1427,10 @@
   findings:
   - issue: https://issues.jenkins.io/browse/JENKINS-74090
     fix: https://github.com/jenkinsci/p4-plugin/pull/219
+    release: https://github.com/jenkinsci/p4-plugin/releases/tag/p4-1.17.3
   - issue: https://issues.jenkins.io/browse/JENKINS-74091
     fix: https://github.com/jenkinsci/p4-plugin/pull/218
+    release: https://github.com/jenkinsci/p4-plugin/releases/tag/p4-1.17.3
   - issue: https://issues.jenkins.io/browse/JENKINS-76334
     fix: https://github.com/jenkinsci/p4-plugin/pull/250
 - id: parasoft-findings
