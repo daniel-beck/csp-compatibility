@@ -5,6 +5,7 @@ aio-tests: "Has no issue tracker"
 
 # Details on known issues, e.g. limited impact
 clearcase: "Form validation will not work"
+email-ext: "Email template testing does not work"
 embeddable-build-status: "The 'link' parameter may not work anymore from frames, but use case is unclear"
 periodicbackup: "JS has been broken since 2.426 anyway, no further impact. Cleanup in https://github.com/jenkinsci/periodicbackup-plugin/pull/27"
 
